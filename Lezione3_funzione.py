@@ -7,5 +7,5 @@ def somma_valori_file(my_file):
             values.append(float(numero))
     my_file.close()
     return round((sum(values)), 1)
-my_file_Shampoo=open("Shampoo_sales.txt","r")
+my_file_Shampoo=open("Shampoo_sales.csv","r")
 print(somma_valori_file(my_file_Shampoo))
