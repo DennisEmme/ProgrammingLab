@@ -17,11 +17,11 @@ shampooFile = CSVFile('Shampoo_sales.csv')
 shampooList = shampooFile.get_data()
 
 try:
-    openedfile = open(Giga, 'r')
+    openedfile = open(Giga.csv, 'r')
 
 except Exception as e:
-    print('non posso aprire il file "Giga"!')
-    print('ho avuto un errore generico: "{}".'.format(e))
+    print('non posso aprire il file "Giga.csv"!')
+    print('riscontrato un errore generico: "{}".'.format(e))
 
 
 for line in shampooList:
